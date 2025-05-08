@@ -100,3 +100,18 @@ class LinkedList
             }
         }
 };
+
+int main() {
+    LinkedList mhs;
+    int nim;
+    char ch;
+
+    do {
+        cout << "\nMenu";
+        cout << "\n1. Menambah data kedalam list";
+        cout << "\n2. Menghapus data dari dalam list";
+        cout << "\n3. Menampilkan semua data didalam list";
+        cout << "\n4. Mencari data dalam list";
+        cout << "\n5. Keluar";
+        cout << "\nMasukkan pilihan (1-5): ";
+        cin >> ch;
