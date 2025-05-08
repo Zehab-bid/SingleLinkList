@@ -155,3 +155,16 @@ int main() {
                     cout << "\nNIM Mahasiswa: " << current->noMhs << endl;
                 }
                 break;
+            }
+            case '5': {
+                break;
+            }
+            default: {
+                cout << "Pilihan salah!\n" << endl;
+                break;
+            }
+        }
+    } while (ch != '5');
+
+    return 0;
+}
