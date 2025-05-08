@@ -84,5 +84,6 @@ class LinkedList
                 START = START->next;
 
                 delete current;
+                return true;
         }
 };
